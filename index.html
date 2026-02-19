@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Online Feedback Form</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Course</label>
+        <select required>
+            <option value="">Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>Other</option>
+        </select>
+
+        <label>Rate Our Service</label>
+        <div class="radio-group">
+            <input type="radio" name="rating"> Excellent
+            <input type="radio" name="rating"> Good
+            <input type="radio" name="rating"> Average
+            <input type="radio" name="rating"> Poor
+        </div>
+
+        <label>Your Feedback</label>
+        <textarea rows="4" placeholder="Write your feedback here..." required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</div>
+
+</body>
+</html>
