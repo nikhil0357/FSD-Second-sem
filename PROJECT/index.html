@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Expected SGPA Calculator</h1>
+
+        <div class="subject">
+            <label>Applied Calculus and Differential Equations (3 Credits)</label>
+            <input type="number" id="sub1" min="0" max="100" placeholder="Marks out of 100">
+        </div>
+
+        <div class="subject">
+            <label>Basic Electrical Engineering (2 Credits)</label>
+            <input type="number" id="sub2" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Applied Physics (2 Credits)</label>
+            <input type="number" id="sub3" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Data Structure Using C++ (3 Credits)</label>
+            <input type="number" id="sub4" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>EVS (2 Credits)</label>
+            <input type="number" id="sub5" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Essentials of AI (2 Credits)</label>
+            <input type="number" id="sub6" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Basic Electrical Engineering Lab (1 Credit)</label>
+            <input type="number" id="sub7" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Physics Lab (1 Credit)</label>
+            <input type="number" id="sub8" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Data Structure Lab (1 Credit)</label>
+            <input type="number" id="sub9" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>CAD Lab (1 Credit)</label>
+            <input type="number" id="sub10" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Web Designing Workshop (2 Credits)</label>
+            <input type="number" id="sub11" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label>Holistic Skills (1 Credit)</label>
+            <input type="number" id="sub12" min="0" max="100">
+        </div>
+
+        <button onclick="calculateSGPA()">Show Expected SGPA</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
